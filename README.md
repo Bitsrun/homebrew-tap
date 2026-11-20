@@ -5,10 +5,11 @@ Hugging Face as private, OpenAI-compatible APIs that sleep when idle and bill pe
 
 ```sh
 brew tap bitsrun/tap
+brew trust bitsrun/tap
 brew install bitsrun
 ```
 
-Or in one line: `brew install bitsrun/tap/bitsrun`. Update with `brew upgrade bitsrun`. Works on macOS (Apple Silicon and Intel)
+Homebrew asks you to trust a tap once before it installs from it; this tap holds only `bitsrun`. Update with `brew upgrade bitsrun`. Works on macOS (Apple Silicon and Intel)
 and Linux (ARM and x86-64).
 
 This repository holds only the Homebrew formula. It installs the same signed, notarized binaries as
