@@ -2,27 +2,27 @@
 class Bitsrun < Formula
   desc "Command-line tool and coding agent for private open-model APIs"
   homepage "https://bitsrun.com"
-  version "0.5.45"
+  version "0.5.46"
 
   on_macos do
     on_arm do
-      url "https://get.bitsrun.com/download/cli/0.5.45/bitsrun-darwin-arm64.gz"
-      sha256 "7c27ffd4163bd05bcb359bcc02142cbd9015b354ae0284cac7feb1c52e3b4097"
+      url "https://get.bitsrun.com/download/cli/0.5.46/bitsrun-darwin-arm64.gz"
+      sha256 "0259193842a8cb8695b3828e6d0bc8fa3cc346a3722b8d0bf2e6e5ac192a514e"
     end
     on_intel do
-      url "https://get.bitsrun.com/download/cli/0.5.45/bitsrun-darwin-x64.gz"
-      sha256 "79a626f418afed99c574cd6d257f6e630fd0fb5d297c01364fdb9e298a66f1a0"
+      url "https://get.bitsrun.com/download/cli/0.5.46/bitsrun-darwin-x64.gz"
+      sha256 "7c5d1311e9eea09a749f017d0fe2120aa1e2866fc7716caab5fb36c6958bdb6a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://get.bitsrun.com/download/cli/0.5.45/bitsrun-linux-arm64.gz"
-      sha256 "54fd911783dc851773897da73b047acd8fc40cbf7dba66ace212fb1c3ca4e5cc"
+      url "https://get.bitsrun.com/download/cli/0.5.46/bitsrun-linux-arm64.gz"
+      sha256 "c3705e4a24821920b8f6c51e1054699c98da6b1bedc0418fac2d05bee0d05bb5"
     end
     on_intel do
-      url "https://get.bitsrun.com/download/cli/0.5.45/bitsrun-linux-x64.gz"
-      sha256 "ab52b9d3cfd2a3c32c85344a1f3b72bf14adea8184e64f062cda7f8e2cd8bff8"
+      url "https://get.bitsrun.com/download/cli/0.5.46/bitsrun-linux-x64.gz"
+      sha256 "c70fde682fa90d56704ef64c11ff1843f82cac480df2bb3454a7d3e1defd1499"
     end
   end
 
